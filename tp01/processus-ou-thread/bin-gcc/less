@@ -1,0 +1,68 @@
+--------------------------------------
+var_globale     : adresse 0x601bd4
+var_pile_main   : adresse 0x7ffd1c32b128
+--------------------------------------
+var_pile_fonc 2 : adresse 0x7ffd1c32b10c
+--------------------------------------
+var_pile_fonc 1 : adresse 0x7ffd1c32b10c
+--------------------------------------
+00400000-00402000 r-xp 00000000 00:26 18753999                           /users/info/etu-s4/rogeri/M4102C/tp01/processus-ou-thread/bin-gcc/zones_mem_processus
+00601000-00602000 rw-p 00001000 00:26 18753999                           /users/info/etu-s4/rogeri/M4102C/tp01/processus-ou-thread/bin-gcc/zones_mem_processus
+01761000-01782000 rw-p 00000000 00:00 0                                  [heap]
+7f03b9f77000-7f03b9f7e000 r-xp 00000000 08:01 5644312                    /lib/x86_64-linux-gnu/librt-2.19.so
+7f03b9f7e000-7f03ba17d000 ---p 00007000 08:01 5644312                    /lib/x86_64-linux-gnu/librt-2.19.so
+7f03ba17d000-7f03ba17e000 r--p 00006000 08:01 5644312                    /lib/x86_64-linux-gnu/librt-2.19.so
+7f03ba17e000-7f03ba17f000 rw-p 00007000 08:01 5644312                    /lib/x86_64-linux-gnu/librt-2.19.so
+7f03ba17f000-7f03ba182000 r-xp 00000000 08:01 5644293                    /lib/x86_64-linux-gnu/libdl-2.19.so
+7f03ba182000-7f03ba381000 ---p 00003000 08:01 5644293                    /lib/x86_64-linux-gnu/libdl-2.19.so
+7f03ba381000-7f03ba382000 r--p 00002000 08:01 5644293                    /lib/x86_64-linux-gnu/libdl-2.19.so
+7f03ba382000-7f03ba383000 rw-p 00003000 08:01 5644293                    /lib/x86_64-linux-gnu/libdl-2.19.so
+7f03ba383000-7f03ba525000 r-xp 00000000 08:01 5639542                    /lib/x86_64-linux-gnu/libc-2.19.so
+7f03ba525000-7f03ba724000 ---p 001a2000 08:01 5639542                    /lib/x86_64-linux-gnu/libc-2.19.so
+7f03ba724000-7f03ba728000 r--p 001a1000 08:01 5639542                    /lib/x86_64-linux-gnu/libc-2.19.so
+7f03ba728000-7f03ba72a000 rw-p 001a5000 08:01 5639542                    /lib/x86_64-linux-gnu/libc-2.19.so
+7f03ba72a000-7f03ba72e000 rw-p 00000000 00:00 0 
+7f03ba72e000-7f03ba744000 r-xp 00000000 08:01 5639569                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f03ba744000-7f03ba943000 ---p 00016000 08:01 5639569                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f03ba943000-7f03ba944000 rw-p 00015000 08:01 5639569                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f03ba944000-7f03baa44000 r-xp 00000000 08:01 5644303                    /lib/x86_64-linux-gnu/libm-2.19.so
+7f03baa44000-7f03bac43000 ---p 00100000 08:01 5644303                    /lib/x86_64-linux-gnu/libm-2.19.so
+7f03bac43000-7f03bac44000 r--p 000ff000 08:01 5644303                    /lib/x86_64-linux-gnu/libm-2.19.so
+7f03bac44000-7f03bac45000 rw-p 00100000 08:01 5644303                    /lib/x86_64-linux-gnu/libm-2.19.so
+7f03bac45000-7f03bad31000 r-xp 00000000 08:01 4987966                    /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.20
+7f03bad31000-7f03baf31000 ---p 000ec000 08:01 4987966                    /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.20
+7f03baf31000-7f03baf39000 r--p 000ec000 08:01 4987966                    /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.20
+7f03baf39000-7f03baf3b000 rw-p 000f4000 08:01 4987966                    /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.20
+7f03baf3b000-7f03baf50000 rw-p 00000000 00:00 0 
+7f03baf50000-7f03baf53000 r-xp 00000000 08:01 4986942                    /usr/lib/x86_64-linux-gnu/libboost_system.so.1.55.0
+7f03baf53000-7f03bb152000 ---p 00003000 08:01 4986942                    /usr/lib/x86_64-linux-gnu/libboost_system.so.1.55.0
+7f03bb152000-7f03bb153000 r--p 00002000 08:01 4986942                    /usr/lib/x86_64-linux-gnu/libboost_system.so.1.55.0
+7f03bb153000-7f03bb154000 rw-p 00003000 08:01 4986942                    /usr/lib/x86_64-linux-gnu/libboost_system.so.1.55.0
+7f03bb154000-7f03bb16c000 r-xp 00000000 08:01 4986945                    /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.55.0
+7f03bb16c000-7f03bb36c000 ---p 00018000 08:01 4986945                    /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.55.0
+7f03bb36c000-7f03bb36e000 r--p 00018000 08:01 4986945                    /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.55.0
+7f03bb36e000-7f03bb36f000 rw-p 0001a000 08:01 4986945                    /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.55.0
+7f03bb36f000-7f03bb395000 r-xp 00000000 08:01 5639631                    /lib/x86_64-linux-gnu/libtinfo.so.5.9
+7f03bb395000-7f03bb594000 ---p 00026000 08:01 5639631                    /lib/x86_64-linux-gnu/libtinfo.so.5.9
+7f03bb594000-7f03bb598000 r--p 00025000 08:01 5639631                    /lib/x86_64-linux-gnu/libtinfo.so.5.9
+7f03bb598000-7f03bb599000 rw-p 00029000 08:01 5639631                    /lib/x86_64-linux-gnu/libtinfo.so.5.9
+7f03bb599000-7f03bb5bd000 r-xp 00000000 08:01 5639589                    /lib/x86_64-linux-gnu/libncurses.so.5.9
+7f03bb5bd000-7f03bb7bc000 ---p 00024000 08:01 5639589                    /lib/x86_64-linux-gnu/libncurses.so.5.9
+7f03bb7bc000-7f03bb7bd000 r--p 00023000 08:01 5639589                    /lib/x86_64-linux-gnu/libncurses.so.5.9
+7f03bb7bd000-7f03bb7be000 rw-p 00024000 08:01 5639589                    /lib/x86_64-linux-gnu/libncurses.so.5.9
+7f03bb7be000-7f03bb7d6000 r-xp 00000000 08:01 5639608                    /lib/x86_64-linux-gnu/libpthread-2.19.so
+7f03bb7d6000-7f03bb9d5000 ---p 00018000 08:01 5639608                    /lib/x86_64-linux-gnu/libpthread-2.19.so
+7f03bb9d5000-7f03bb9d6000 r--p 00017000 08:01 5639608                    /lib/x86_64-linux-gnu/libpthread-2.19.so
+7f03bb9d6000-7f03bb9d7000 rw-p 00018000 08:01 5639608                    /lib/x86_64-linux-gnu/libpthread-2.19.so
+7f03bb9d7000-7f03bb9db000 rw-p 00000000 00:00 0 
+7f03bb9db000-7f03bb9fb000 r-xp 00000000 08:01 5636585                    /lib/x86_64-linux-gnu/ld-2.19.so
+7f03bbaaa000-7f03bbbb2000 rw-p 00000000 00:00 0 
+7f03bbbf9000-7f03bbbfb000 rw-p 00000000 00:00 0 
+7f03bbbfb000-7f03bbbfc000 r--p 00020000 08:01 5636585                    /lib/x86_64-linux-gnu/ld-2.19.so
+7f03bbbfc000-7f03bbbfd000 rw-p 00021000 08:01 5636585                    /lib/x86_64-linux-gnu/ld-2.19.so
+7f03bbbfd000-7f03bbbfe000 rw-p 00000000 00:00 0 
+7ffd1c30b000-7ffd1c32c000 rw-p 00000000 00:00 0                          [stack]
+7ffd1c38f000-7ffd1c391000 r--p 00000000 00:00 0                          [vvar]
+7ffd1c391000-7ffd1c393000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+--------------------------------------

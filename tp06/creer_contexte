@@ -1,0 +1,35 @@
+#!/bin/bash -e
+
+# vérification du contexte général
+verifier()
+{
+  if [ ! "$1" "$2" ] ; then
+    echo "Erreur! $2 n'existe pas"
+    exit 1
+  fi
+}
+
+# Récupération du Makefile et création des liens spécifiques à ce tp06
+makefile_original="/users/info/pub/s4/M4102C/data/Makefile"
+verifier -f "$makefile_original"
+
+origine="../commun"
+
+# liens spécifiques à ce tp06
+for rep in client serveur
+do
+  (
+  verifier -d "$rep"
+  cd "$rep"
+  ln -si "$makefile_original" .
+  origine="../../tp05/$rep/$rep"_main.cpp
+  verifier -f "$origine"
+  ln -si "$origine" .
+  for suf in hpp cpp
+  do
+    origine="../../tp05/$rep/EnvoiReception.$suf"
+    verifier -f "$origine"
+    ln -si "$origine" .
+  done
+  )
+done

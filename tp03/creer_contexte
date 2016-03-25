@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# vérification du contexte général
+verifier()
+{
+  if [ ! "$1" "$2" ] ; then
+    echo "Erreur! $2 n'existe pas"
+    exit 1
+  fi
+}
+
+# Récupération du Makefile
+origine="/users/info/pub/s4/M4102C/data/Makefile"
+verifier -f "$origine"
+
+for rep in *
+do
+  if [ -d "$rep" ] ; then
+    ln -si "$origine" "$rep"
+  fi
+done
